@@ -187,7 +187,7 @@ function Home(props) {
               <Button
                 name="default"
                 href={`mailto:${runtimeConfig.EMAIL}`}
-                displayName={runtimeConfig.EMAIL_TEXT}
+                displayName="Email Me"
                 logo={emailLogo}
               />
             )}
@@ -256,7 +256,7 @@ function Home(props) {
               <Button
                 name="wordpress"
                 href={runtimeConfig.WORDPRESS}
-                displayName="Wordpress"
+                displayName="Check Out My Website!"
                 logo={wordpressLogo}
               />
             )}
